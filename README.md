@@ -32,6 +32,7 @@ A Python program that reads two command line parameters, month (between 1 and 12
 Here are some sample runs of the program:
 
 Mac-mini:cal sb$ python3 Cal.py 7 2022
+<pre>
      July 2022
 Su Mo Tu We Th Fr Sa
                 1  2 
@@ -39,9 +40,10 @@ Su Mo Tu We Th Fr Sa
 10 11 12 13 14 15 16 
 17 18 19 20 21 22 23 
 24 25 26 27 28 29 30 
-31 
+31 </pre>
 
 Mac-mini:cal sb$ python3 Cal.py 10 1958
+<pre>
     October 1958
 Su Mo Tu We Th Fr Sa
           1  2  3  4 
@@ -49,6 +51,7 @@ Su Mo Tu We Th Fr Sa
 12 13 14 15 16 17 18 
 19 20 21 22 23 24 25 
 26 27 28 29 30 31 
+</pre>
 
 Mac-mini:cal sb$ python3 Cal.py 15 2022
 month must be in 1..12
